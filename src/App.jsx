@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { useDebounce } from 'react-use'
 
-import './Index.css'
+import './index.css'
 import Search from "./components/Search.jsx";
 import Spinner from "./components/Spinner.jsx";
 import MovieCard from "./components/MovieCard.jsx";
