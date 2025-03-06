@@ -1,13 +1,21 @@
-<<<<<<< HEAD
-# Movie-Search-
+# Movie Search App
+
 This project is a movie search application built with React and Vite. It allows users to search for movies using The Movie Database (TMDB) API and displays trending movies using data stored in Appwrite.
-=======
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
 
-Currently, two official plugins are available:
+- **Movie Search**: Users can search for movies using the TMDB API.
+- **Trending Movies**: Displays a list of trending movies using data from Appwrite.
+- **Debounced Search**: Implements a debounced search to optimize API calls.
+- **Loading Spinner**: Shows a loading spinner while fetching data.
+- **Error Handling**: Displays error messages when data fetching fails.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
->>>>>>> 0bb8238 (Project)
+## Dependencies
+
+- **React**: Main library for building the user interface.
+- **Vite**: Fast build tool for frontend projects.
+- **TailwindCSS**: CSS framework for quick and custom styling.
+- **Appwrite**: Backend platform for managing databases and authentication.
+- **ESLint**: Tool to ensure code quality.
+
+![Shots Mockups](https://github.com/user-attachments/assets/3a0fef88-ba04-43ee-a878-b219c5a63612)
