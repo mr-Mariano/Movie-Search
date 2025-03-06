@@ -80,7 +80,7 @@ const App = () => {
             <div className='pattern'/>
             <div className='wrapper'>
                 <header>
-                    <img src="../public/hero.png" alt={"Hero Banner"}/>
+                    <img src="./hero.png" alt={"Hero Banner"}/>
                     <h1>Find your next <span className='font-Bebas text-gradient'>Bang</span></h1>
                     <Search searchTerm={searchTerm} setSearchTerm={setSearchTerm}/>
                 </header>
