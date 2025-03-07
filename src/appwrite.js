@@ -4,6 +4,10 @@ const PROJECT_KEY = import.meta.env.VITE_APPWRITE_KEY
 const DATABASE_ID = import.meta.env.VITE_APPWRITE_DB_ID
 const COLLECTION_ID = import.meta.env.VITE_APPWRITE_COLLECTION_ID
 
+console.log("PROJECT_KEY:", import.meta.env.VITE_APPWRITE_KEY);
+console.log("DATABASE_ID:", import.meta.env.VITE_DATABASE_ID);
+console.log("COLLECTION_ID:", import.meta.env.VITE_COLLECTION_ID);
+
 const client = new Client()
     .setEndpoint('https://cloud.appwrite.io/v1')
     .setProject(PROJECT_KEY)
